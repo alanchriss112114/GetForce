@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy & Terms - Getforce</title>
+    <link rel="icon" href="Icon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Privacy-Privacy.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  margin-top: 61px;
+  z-index: 2;
+}
+
+.sidebar a {
+  display: block;
+  padding: 16px;
+  padding-left: 55px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: white;
+  z-index: 2;
+}
+
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+
+
+
+</head>
+<body>
+    <header id="top" style="position: fixed; z-index: 1; background-color: white; width: 100%; margin-top: -17px;">
+        <div class="row">
+             <div class="col12">
+                <a href="index.html" style="color: #106061;"><h4 class="getforce">Getforce</h4></a>
+            </div>
+        </div>     
+        <div class="row">   
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+    
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link; topbar" href="Privacy-Overview.html">Overview<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              
+                            </li>
+                            <li class="nav-item">
+                              <a style="color: #3367d6;;" class="nav-link; topbar" href="#">Privacy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link; topbar" href="Privacy-Policy.html">Policy</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link; topbar" href="Privacy-Terms.html">Terms of Service</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link; topbar" href="Privacy-Technology-Index.html">Technologies</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link; topbar" href="Privacy-FAQ.html">FAQ</a>
+                              </li>
+                          </ul>
+    
+                        </div>
+                      </nav>
+                </div>
+            </div>       
+    </header>
+    <hr>
+
+
+    <div class="sidebar" style="z-index: 2;">
+        <a class="active sde" style="color: gray;" href="#">Introduction</a>
+        <a class="sde" style="color: gray;" href="#information">Information Getforce collects</a>
+        <a class="sde" style="color: gray;" href="#privacy">Privacy Controls</a>
+        <a class="sde" style="color: gray;" href="#sharing">Sharing information</a>
+        <a class="sde" style="color: gray;" href="#keepingsecure">Keeping information secure</a>
+        <a class="sde" style="color: gray;" href="#exdeinfo">Exporting & deleting information</a>
+        <a class="sde" style="color: gray;" href="#retaininfo">Retaining information</a>
+        <a class="sde" style="color: gray;" href="#regulators">Compliance & cooperation with regulators</a>
+        <a class="sde" style="color: gray;" href="#aboutpolicy">About this policy</a>
+        <a class="sde" style="color: gray;" href="#contact">Contact</a>
+      </div>
+
+
+    <section class="sec" style="padding-top: 125px;" id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="data:image/png;base64,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" alt="">
+                    </div>
+                    <div>
+                        <p class="con" style="color: gray;">Getforce Privacy Policy</p>
+                        <p class="con lcon">When you use our services, you’re trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.</p>
+                        <p class="con scon">This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/a8e78fa7fa279aa946fe1a9d6a0508f2.svg" alt="">
+                    </div>
+                    <div class="con scon">
+                        <p>We build a range of services that help millions of people daily to explore and interact with the world in new ways. Our services include:</p>
+                    </div>
+                    <div class="con scon">
+                        <ul>
+                            <li>Getforce apps, sites, and devices, like Search, YouTube, and Getforce Home</li>
+                            <li>Platforms like the Chrome browser and Android operating system</li>
+                            <li>Products that are integrated into third-party apps and sites, like ads and embedded Google Maps</li>
+                        </ul>
+                    </div>
+                    <div class="con scon">
+                        <p>
+                            You can use our services in a variety of ways to manage your privacy. For example, you can sign up for a Getforce Account if you want to create and manage content like emails and photos, or see more relevant search results. And you can use many Getforce services when you’re signed  out or without creating an account at all, like searching on Getforce or watching YouTube videos. You can also choose to browse<span id="information"></span> the web privately using Chrome in Incognito mode. And across our services, you can adjust your privacy settings to control what we collect and how your information is used.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/b18d13e9ea8a362642b7d25bce665039.svg" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal;">INFORMATION GETFORCE COLLECTS</p>
+                        <p class="con lcon">We want you to understand the types of information we collect as you use our services</p>
+                        <p class="con scon">We collect information to provide better services to all our users — from figuring out basic stuff like which language you speak, to more complex things like which ads you’ll find most useful, the people who matter most to you online, or which YouTube videos you might like. The information Getforce collects, and how that information is used, depends on how you use our services and how you manage your privacy controls.</p>
+                        <p class="con scon">When you’re not signed in to a Getforce Account, we store the information we collect with unique identifiers tied to the browser, application, or device you’re using. This helps us do things like maintain your language preferences across browsing sessions.</p>
+                        <p class="con scon">When you’re signed in, we also collect information that we store with your Getforce Account, which we treat as personal information.</p>
+                        <p class="con lcon">Things you create or provide to us</p>
+                    </div>
+                    <div>
+                        <img src="https://ideasignage.com/images/privacy/privacy1.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="con scon">When you create a Getforce Account, you provide us with personal information that includes your name and a password. You can also choose to add a phone number information to your account. Even if you aren’t signed in to a Getforce Account, you might choose to provide us with information — like an email address to receive updates about our services.</p>
+                        <p class="con scon">We also collect the content you create, upload, or receive from others when using our services. This includes things like email you write and receive, photos and videos you save, docs and spreadsheets you create, and comments you make on YouTube videos.</p>
+                    </div>
+                    <div>
+                        <p class="con lcon">Information we collect as you use our services</p>
+                        <p class="con scon" style="font-size: large; color: #3c4043;">Your apps, browsers & devices</p>
+                    </div>
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/e79ea0ed464fc8952d5b5582f9f9ae53.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="con scon">We collect information about the apps, browsers, and devices you use to access Getforce services, which helps us provide features like automatic product updates and dimming your screen if your battery runs low.</p>
+                        <p class="con scon">The information we collect includes unique identifiers, browser type and settings, device type and settings, operating system, mobile network information including carrier name and phone number, and application version number. We also collect information about the interaction of your apps, browsers, and devices with our services, including IP address, crash reports, system activity, and the date, time, and referrer URL of your request.</p>
+                        <p class="con scon">We collect this information when a Getforce service on your device contacts our servers — for example, when you install an app from the Play Store or when a service checks for automatic updates. If you’re using an Android device with Getforce apps, your device periodically contacts Getforce servers to provide information about your device and connection to our services. This information includes things like your device type, carrier name, crash reports, and which apps you've installed.</p>
+                    </div>
+                    <div>
+                        <p class="con scon" style="font-size: large;">Your activity</p>
+                    </div>
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/39b031d352a2e1586cf50ac7f2bbc18b.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="con scon">We collect information about your activity in our services, which we use to do things like recommend a YouTube video you might like. The activity information we collect may include:</p>
+                    </div>
+                    <div class="con scon">
+                        <ul>
+                            <li>Terms you search for</li>
+                            <br>
+                            <br>
+                            <li>Videos you watch</li>
+                            <br>
+                            <br>
+                            <li>Views and interactions with content and ads</li>
+                            <br>
+                            <br>
+                            <li>Voice and audio information when you use audio features</li>
+                            <br>
+                            <br>
+                            <li>Purchase activity</li>
+                            <br>
+                            <br>
+                            <li>People with whom you communicate or share content</li>
+                            <br>
+                            <br>
+                            <li>Activity on third-party sites and apps that use our services</li>
+                        </ul>
+                    </div>
+                    <div  class="con scon">
+                        <p>If you use our services to make and receive calls or send and receive messages, we may collect telephony log information like your phone number, calling-party number, receiving-party number, forwarding numbers, time and date of calls and messages, duration of calls, routing information, and types of calls.</p>
+                        <p>You can visit your Getforce Account to find and manage activity information that’s saved in your account.</p>
+                    </div>
+                    <div>
+                        <p class="con scon" style="font-size: large;" style="font-size: large;">Your location information</p>
+                    </div>
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/4c5ee41d52605ff6f43538d46a1c0d35.svg" alt="">
+                    </div>
+                    <div class="con scon">
+                        <p class="con scon">We collect information about your location when you use our services, which helps us offer features like driving directions for your weekend getaway or showtimes for movies playing near you.</p>
+                        <p class="con scon">Your location can be determined with varying degrees of accuracy by:</p>
+                    </div>
+                    <div class="con scon">
+                        <ul>
+                            <li>GPS</li>
+                            <li>IP address</li>
+                            <li>Sensor data from your device</li>
+                            <li>Information about things near your device, such as Wi-Fi access points, cell towers, and Bluetooth-enabled devices</li>
+                        </ul>
+                    </div>
+                    <div class="con scon">
+                        <p class="con scon">The types of location data we collect depend in part on your device and account settings. For example, you can turn your Android device’s location on or off using the device’s settings app. You can also turn on Location History if you want to create a private map of where you go with your signed-in devices.</p>
+                        <p class="con scon">In some circumstances, Getforce also collects information about you from publicly accessible sources. For example, if your name appears in your local newspaper, Getforce's Search engine may index that article and display it to other people if they search for your name. We may also collect information about you from trusted partners, including marketing partners who provide us with information about potential customers of our business services, and security partners who provide us with information to protect against abuse. We also receive information from advertisers to provide advertising and research services on their behalf.</p>
+                        <p class="con scon">We use various technologies to collect and store information, including cookies, pixel tags, local storage, such as browser web storage or application <span id="privacy"></span> data caches, databases, and server logs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/fa9e0e90d1e7ec399dad9f3257a9bb63.svg" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal;" >PRIVACY CONTROLS</p>
+                        <p class="con lcon">You have choices regarding the information we collect and how it's used</p>
+                        <p class="con scon">This section describes key controls for managing your privacy across our services. You can also visit the Privacy Checkup, which provides an opportunity to review and adjust important privacy settings. In addition to these tools, we also offer specific privacy settings in our products — you can learn more in our Product Privacy Guide.</p>
+                    </div>
+                    <div>
+                        <p class="con lcon">Managing, reviewing, and updating your information</p>
+                        <p class="con scon">When you’re signed in, you can always review and update information by visiting the services you use.We also built a place for you to review and control information saved in your Getforce Account.</p>
+                    </div>
+                    <div>
+                        <p class="con scon" style="font-size: large;">Privacy controls</p>
+                    </div>
+                    <div class="con scon col-11">
+                        <img style="float: left; padding-top: 16px;" src="https://www.gstatic.com/policies/privacy/3394102be0315326fd760e503b31c7b6.svg" alt=""><span><div><p style="font-size: medium;">Activity Controls <br><span class="con ad">Decide what types of activity you’d like saved in your account. For example, you can turn on Location History if you want traffic predictions for your daily commute, or you can save your YouTube Watch History to get better video suggestions.</span> </p></div></span>
+                        
+                    </div>
+                    <div class="con scon col-11">
+                        <img style="float: left; padding-top: 16px;" src="https://www.gstatic.com/policies/privacy/900a793eae04f4bddd675f8d95c4a794.svg" alt=""><span><div><p style="font-size: medium;">Ad settings <br><span class="con ad">Manage your preferences about the ads shown to you on Getforce and on sites and apps that partner with Getforce to show ads. You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div class="con scon col-11">
+                        <img style="float: left; padding-top: 10px;" src="https://www.gstatic.com/policies/privacy/c1b97d74dace7e43a9ccb26841a7cae4.svg" alt=""><span><div><p style="font-size: medium;">About you <br><span class="con ad">Control what others see about you across Getforce services. Managing, reviewing, and updating your information, Signed-out search personalization Choose whether your search activity is
+                            used to offer you more relevant results and recommendations.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div class="con scon col-11">
+                        <img style="float: left; padding-top: 0px;" src="https://www.gstatic.com/policies/privacy/e28714c71f217892f72b2698ea5cefef.svg" alt=""><span><div><p style="font-size: medium;">Shared endorsements <br><span class="con ad">Choose whether your name and photo appear next to your activity, like reviews and recommendations, that appear in ads.We also built a place for you to review and control information saved
+                            in your Getforce Account.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div class="con scon col-11">
+                        <img style="float: left; padding-top: 5px;" src="https://www.gstatic.com/policies/privacy/9c1bd42ba6ec58ce82eef30bbb30ecc3.svg" alt=""><span><div><p style="font-size: medium;">Information you share <br><span class="con ad">If you’re a G Suite user, control whom you share information with through your account on Getforce.Even if you aren’t signed in to a Getforce Account,
+                            you might choose to provide us with information — like an email address to
+                             receive updates about our services.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="con scon" style="font-size: large;">Ways to review & update your information</p>
+                    </div>
+                    <div class="con scon col-11">
+                        <img style="float: left; width: 70px; height: 80px;" src="https://www.gstatic.com/policies/privacy/5e7cd445f8861a262a3da876f855a4cc.svg" alt=""><span><div><p style="font-size: medium;">My Activity <br><span class="con ad">My Activity allows you to review and control data that’s created when you use  Getforce services. You can browse by date and by topic, and delete part or all of your activity.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div class="con scon col-11">
+                        <img style="float: left; width: 70px; height: 80px;" src="https://www.gstatic.com/policies/privacy/02698a3383765bd3c250471c53a86c5a.svg" alt=""><span><div><p style="font-size: medium;">Getforce Dashboard <br><span class="con ad">Getforce Dashboard allows you to manage information associated with specific products.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div class="con scon col-11">
+                        <img style="float: left; width: 70px; height: 80px;" src="https://www.gstatic.com/policies/privacy/4f19891c43001db11efc8048f9bc7cdb.svg" alt=""><span><div><p style="font-size: medium;">Your personal information <br><span class="con ad">Manage your contact information, such as your name, email, and phone number.</span></p></div></span>
+                        
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="con scon">When you’re signed out, you can manage information associated with your browser or device, including:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">Signed-out search personalization: Choose whether your search activity is used to offer you more relevant results and recommendations.</li>
+                            <li class="con scon">YouTube settings: Pause and delete your YouTube Search History and your YouTube Watch History.</li>
+                            <li class="con scon">Ad Settings: Manage your preferences about the ads shown to you on Getforce and on sites and apps that partner with Getforce to show ads.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="con lcon">Exporting, removing & deleting your information</p>
+                        <p class="con scon">You can export a copy of content in your Getforce Account if you want to back it up or use it with a service outside of Getforce.</p>
+                        <p class="con scon">You can also request to remove content from specific Getforce services based on applicable law.</p>
+                        <p class="con scon">To delete your information, you can:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">Delete your content from specific Getforce services</li>
+                            <li class="con scon">Search for and then delete specific items from your account using My Activity</li>
+                            <li class="con scon">Delete specific Google products, including your information associated with those products</li>
+                            <li class="con scon">Delete your entire Google Account</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="con scon">And finally, Inactive Account Manager allows you to give someone else access to parts of your Getforce Account in case you’re unexpectedly unable to use your account.</p>
+                        <p class="con scon">There are other ways to control the information Getforce collects whether or not you’re signed in to a Getforce Account, including:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">Browser settings: For example, you can configure your browser to indicate when Getforce has set a cookie in your browser. You can also configure your browser to block all cookies from a specific domain or all domains. But remember that our services rely on cookies to function properly, for things like remembering your language preferences.</li>
+                            <li class="con scon">Device-level settings: Your device may have controls that determine what information we collect. For example, you can modify location settings on your <span  id="sharing"></span> Android device.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img style="width: 410px; width: 307px; margin-left: 50px;" src="https://images.firstpost.com/wp-content/uploads/2019/05/google-security-1024.jpg" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal;">SHARING YOUR INFORMATION</p>
+                        <p class="con lcon">When you share your information</p>
+                        <p class="con scon">Many of our services let you share information with other people, and you have control over how you share. For example, you can share videos on YouTube publicly or you can decide to keep your videos private. Remember, when you share information publicly, your content may become accessible through search engines, including Getforce Search.</p>
+                        <p class="con scon">When you’re signed in and interact with some Getforce services, like leaving comments on a YouTube video or reviewing an app in Play, your name and photo appear next to your activity. We may also display this information in ads depending on your Shared endorsements setting.</p>
+                        <br>
+                        <br>
+                        <p class="con lcon">When Google shares your information</p>
+                        <p class="con scon">We do not share your personal information with companies, organizations, or individuals outside of Getforce except in the following cases:</p>
+                        <br>
+                        <br>
+                        <p class="con scon" style="font-size: large;">With your consent</p>
+                        <p class="con scon">We’ll share personal information outside of Getforce when we have your consent. For example, if you use Getforce Home to make a reservation through a booking service, we’ll get your permission before sharing your name or phone number with the restaurant. We’ll ask for your explicit consent to share any sensitive personal information.</p>
+                        <br>
+                        <br>
+                        <p class="con scon" style="font-size: large;">With domain administrators</p>
+                        <p class="con scon">If you’re a student or work for an organization that uses Getforce services, your domain administrator and resellers who manage your account will have access to your Getforce Account. They may be able to:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">Access and retain information stored in your account, like your email</li>
+                            <li class="con scon">View statistics regarding your account, like how many apps you install</li>
+                            <li class="con scon">Change your account password</li>
+                            <li class="con scon">Suspend or terminate your account access</li>
+                            <li class="con scon">Receive your account information in order to satisfy applicable law, regulation, legal process, or enforceable governmental request</li>
+                            <li class="con scon">Restrict your ability to delete or edit your information or your privacy settings</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                        <p class="con scon" style="font-size: large;">For external processing</p>
+                        <p class="con scon">We provide personal information to our affiliates and other trusted businesses or persons to process it for us, based on our instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures. For example, we use service providers to help us with customer support.</p>
+                        <br>
+                        <br>
+                        <p class="con scon" style="font-size: large;">For legal reasons</p>
+                        <p class="con scon">We will share personal information outside of Getforce if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">Meet any applicable law, regulation, legal process, or enforceable governmental request. We share information about the number and type of requests we receive from governments in our Transparency Report.</li>
+                            <li class="con scon">Enforce applicable Terms of Service, including investigation of potential violations.</li>
+                            <li class="con scon">Detect, prevent, or otherwise address fraud, security, or technical issues.</li>
+                            <li class="con scon">Protect against harm to the rights, property or safety of Getforce, our users, or the public as required or permitted by law.</li>
+                        </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <p class="con scon">We may share non-personally identifiable information publicly and with our partners — like publishers, advertisers, developers, or rights holders. For example, we share information publicly to show trends about the general use of our services. We also allow specific partners to collect information from your browser or device for advertising and measurement purposes using their own cookies or similar technologies.</p>
+                        <p class="con scon">If Getforce is involved in a merger, acquisition, or sale of assets, we’ll continue to ensure the confidentiality of your personal information and give affected users notice before personal information is transferred or becomes subject to a different privacy policy. <span id="keepingsecure"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/fb61fc4bfc85ad86f11342e699d685e9.svg" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal;">KEEPING YOUR INFORMATION SECURE</p>
+                        <p class="con lcon">We build security into our services to protect your information</p>
+                        <p class="con scon">All Getforce products are built with strong security features that continuously protect your information. The insights we gain from maintaining our services help us detect and automatically block security threats from ever reaching you. And if we do detect something risky that we think you should know about, we’ll notify you and help guide you through steps to stay better protected.</p>
+                        <p class="con scon">We work hard to protect you and Getforce from unauthorized access, alteration, disclosure, or destruction of information we hold, including:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">We use encryption to keep your data private while in transit</li>
+                            <li class="con scon">We offer a range of security features, like Safe Browsing, Security Checkup, and 2 Step Verification to help you protect your account</li>
+                            <li class="con scon">We review our information collection, storage, and processing practices, including physical security measures, to prevent unauthorized access to our systems</li>
+                            <li class="con scon">We restrict access to personal information to Getforce employees, contractors, and agents who need that information in order to process it. Anyone with this access is subject to strict contractual confidentiality obligations and may be disciplined or terminated if they fail to meet these obligations. <span id="exdeinfo"></span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/13062c65605335a46d14656c46af3868.svg" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal;">EXPORTING & DELETING YOUR INFORMATION</p>
+                        <p class="con lcon">You can export a copy of your information or delete it from your Getforce Account at any time</p>
+                        <p class="con scon">You can export a copy of content in your Getforce Account if you want to back it up or use it with a service outside of Getforce.</p>
+                        <p class="con scon">To delete your information, you can:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">Delete your content from specific Getforce services</li>
+                            <li class="con scon">Search for and then delete specific items from your account using My Activity</li>
+                            <li class="con scon">Delete specific Getforce products, including your information associated with those products</li>
+                            <li class="con scon">Delete your entire Getforce Account <span id="retaininfo"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <img src="https://www.gstatic.com/policies/privacy/02f8664b95445de6f27ba682f3c5f9ab.svg" alt="">
+                </div>
+                <div class="col-8">
+                    <p style="color: #3c4043; font-weight: normal;">RETAINING YOUR INFORMATION</p>
+                    <p class="con scon">We retain the data we collect for different periods of time depending on what it is, how we use it, and how you configure your settings:</p>
+                </div>
+                <div class="col-8">
+                    <ul>
+                        <li class="con scon">Some data you can delete whenever you like, such as the content you create or upload. You can also delete activity information saved in your account, or choose to have it deleted automatically after a set period of time.</li>
+                        <li class="con scon">Other data is deleted or anonymized automatically after a set period of time, such as advertising data in server logs.</li>
+                        <li class="con scon">We keep some data until you delete your Getforce Account, such as information about how often you use our services.</li>
+                        <li class="con scon">And some data we retain for longer periods of time when necessary for legitimate business or legal purposes, such as security, fraud and abuse prevention, or financial record-keeping.</li>
+                    </ul>
+                </div>
+                <div class="col-8">
+                    <p class="con scon">When you delete data, we follow a deletion process to make sure that your data is safely and completely removed from our servers or retained only in anonymized form. We try to ensure that our services protect information from accidental or malicious deletion. Because of this, there may be delays between when you delete something and when copies are deleted from our active and backup systems.</p>
+                    <p class="con scon">You can read more about Getforce's data retention periods, including how long it takes us to delete your information. <span id="regulators"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img src="https://www.gstatic.com/policies/privacy/e60586c0029adec0bacd3e48470ca6c6.svg" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal;">COMPLIANCE & COOPERATION WITH REGULATORS</p>
+                        <p class="con scon">We regularly review this Privacy Policy and make sure that we process your information in ways that comply with it.</p>
+                        <p class="con lcon">Data transfers</p>
+                        <p class="con scon">We maintain servers around the world and your information may be processed on servers located outside of the country where you live. Data protection laws vary among countries, with some providing more protection than others. Regardless of where your information is processed, we apply the same protections described in this policy. We also comply with certain legal frameworks relating to the transfer of data, such as the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks.</p>
+                        <p class="con scon">When we receive formal written complaints, we respond by contacting the person who made the complaint. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of your data that we cannot resolve with you directly. <span id="aboutpolicy"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <img style="width: 100px; height: 100px; margin-left: 20px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR2JbBCAXGOOxqW0ZwuIDPcQJW8Kn-5qJDH6b3UYOi4l08PPeFF&usqp=CAU" alt="">
+                    </div>
+                    <div>
+                        <p style="color: #3c4043; font-weight: normal; margin-top: 15px;">ABOUT THIS POLICY</p>
+                        <p class="con lcon">When this policy applies</p>
+                        <p class="con scon">This Privacy Policy applies to all of the services offered by Getforce LLC and its affiliates, including YouTube, Android, and services offered on third-party sites, such as advertising services. This Privacy Policy doesn’t apply to services that have separate privacy policies that do not incorporate this Privacy Policy.</p>
+                        <p class="con scon">This Privacy Policy doesn’t apply to:</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="con scon">The information practices of other companies and organizations that advertise our services</li>
+                            <li class="con scon">Services offered by other companies or individuals, including products or sites that may include Getforce services, be displayed to you in search results, or be linked from our services</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="con lcon">Changes to this policy</p>
+                        <p class="con scon">We change this Privacy Policy from time to time. We will not reduce your rights under this Privacy Policy without your explicit consent. We always indicate the date the last changes were published and we offer access to archived versions for your review. If changes are significant, we’ll provide a more prominent notice (including, for certain services, email notification of Privacy Policy changes).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #e8eaee; margin-top: 5em; position: relative; z-index: 3000;" id="contact">
+        <div class="container">
+            <br>
+            <p style="float: left;">Follow us on:</p>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram text-dark ico" style="float: left;"></i></a>
+            <a href="https://www.youtube.com"><i class="fab fa-youtube text-dark ico" style="float: left;"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter text-dark ico" style="float: left;"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-square text-dark ico" style="float: left;"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin text-dark ico" style="float: left;"></i></a>
+            <br>
+            <hr>
+            <a href="#" style="text-decoration: none;color:black;"><p style="float: left;">Getforce</p></a>
+            <a style="text-decoration: none;color:black;" href=""><p class="help" style="float: left;">Help</p></a>
+            <a style="text-decoration: none;color:black;" href="#"><p class="help" style="float: left;">Privacy</p></a>
+            <a style="text-decoration: none;color:black;" href="Privacy-Terms.html"><p class="help" style="float: left;">Terms</p></a>
+            <br>
+            <br>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fe50b1ac90.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

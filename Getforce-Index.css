@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+}
+.getforce{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    color: #106061;
+    margin-top: 0em;
+    margin-left: 50%;
+    padding-top: 6px;
+    float: left;
+}
+.about{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5em;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+}
+.products{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    margin-top: 5%;
+    margin-left: 2em;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+}
+.commitments{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    margin-top: 5%;
+    margin-left: 2em;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+}
+.stories{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    margin-top: 7%;
+    margin-left: 2em;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+}
+.support{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    margin-top: 7%;
+    margin-left: 2em;
+    font-size: 10px;
+    color: black;
+}
+.policy{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    margin-top: 7%;
+    margin-left: 2em;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+}
+.about:hover{
+    text-decoration: none;
+    color: black;
+}
+.products:hover{
+    text-decoration: none;
+    color: black;
+}
+.commitments:hover{
+    text-decoration: none;
+    color: black;
+}
+.stories:hover{
+    text-decoration: none;
+    color: black;
+}
+.support:hover{
+    text-decoration: none;
+    color: black;
+}
+.policy:hover{
+    text-decoration: none;
+    color: black;
+}
+.ico{
+    padding-left: 1%;
+    padding-top: 5px;
+}
+.help{
+    font-size: 9px;
+    padding-left: 2%;
+    padding-top: 7px;
+}

@@ -1,0 +1,39 @@
+.getforce{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    color: #106061;
+    padding-top: 1em;
+    padding-left: 4rem;
+    float: left;
+}
+.topbar{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    font-size: 80%;
+    color: gray;
+    cursor: pointer;
+    font-weight: bolder;
+    padding-left: 3em;
+}
+.topbar:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+.content{
+    float: left;
+    padding-top: 5em;
+}
+.ico{
+    padding-left: 1%;
+    padding-top: 5px;
+}
+.help{
+    font-size: 9px;
+    padding-left: 2%;
+    padding-top: 7px;
+}
+::selection{
+    color: #3367d6;
+}
+body{
+    margin: 0px;
+}

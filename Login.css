@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+.bgimg{
+    height: 40em;
+    width: 100%;
+}
+.con{
+    margin-top: -15em;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 2em;
+    color: gray;
+    font-weight: bold;
+}
+.form{
+    margin-top: -25em;
+    margin-left: 39%;
+}
+.form1{
+    width: 16em;
+}
+#signin{
+    width: 16em;
+    background-color: darkgray;
+    color: white;
+}

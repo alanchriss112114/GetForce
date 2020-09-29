@@ -1,0 +1,65 @@
+.getforce{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    color: #106061;
+    padding-top: 1em;
+    padding-left: 4rem;
+    float: left;
+}
+.topbar{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    float: left;
+    font-size: 80%;
+    color: gray;
+    cursor: pointer;
+    font-weight: bolder;
+    padding-left: 3em;
+}
+.topbar:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+.ico{
+    padding-left: 1%;
+    padding-top: 5px;
+}
+.help{
+    font-size: 9px;
+    padding-left: 2%;
+    padding-top: 7px;
+}
+.container{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+}
+.con{
+    padding-top: 2rem;
+}
+.lcon{
+    font-size: x-large;
+    color: #3c4043;
+    font-weight: bolder;
+}
+.scon{
+    color: rgba(0,0,0,0.87);
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sec{
+    padding-left: 25em;
+}
+.sde{
+    cursor: pointer;
+}
+.sde:hover{
+    text-decoration: none;
+}
+.ad{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+::selection{
+    color: #ec1d25;
+}
+body{
+    margin: 0px;
+}
